@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from "react";
-import * as emailjs from "emailjs-com";
+import emailjs from '@emailjs/browser';
 
 function Contact() {
   const [formData, setFormData] = useState({
