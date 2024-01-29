@@ -22,16 +22,16 @@ function Contact() {
       const { name, email, message } = formData;
       const templateParams = {
         from_name: `${name} - ${email} )`,
-        to_name: "Mitesh Tagadiya",
+        to_name: "Abdullah Saim",
         message: message
       };
       if (name !== "" && email !== "" && message !== "") {
         emailjs
           .send(
-            "service_kvhn0jx",
-            "template_znzqt4a",
+            process.env.EMAILJS_SERVICE_ID,
+            process.env.EMAILJS_TEMPLATE_ID,
             templateParams,
-            "x_YkFgu1Toi1XYsGI"
+            process.env.EMAILJS_KEY
           )
           .then(
             () => {

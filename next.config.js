@@ -1,9 +1,9 @@
 module.exports = {
-  // output: "export", // comment this line while development
+  distDir: 'dist',
+  output: "export", // comment this line while development
   assetPrefix: "/",
-  // exportTrailingSlash: true, // comment this line while development
   basePath: "",
-  // trailingSlash: true,
+  trailingSlash: true, // comment this line while development
   swcMinify: true,
   images: {
     unoptimized: true

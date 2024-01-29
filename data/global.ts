@@ -38,6 +38,10 @@ export const routes: Route[] = [
   {
     title: "Contact",
     path: "/contact"
+  },
+  {
+    title: "Photography",
+    path: "/photography"
   }
 ];
 
@@ -62,6 +66,11 @@ export const footer: Footer = {
           leavesWebsite: false
         },
         {
+          name: "Photography",
+          link: "/photography",
+          leavesWebsite: false
+        },
+        {
           name: "Contact",
           link: "/contact",
           leavesWebsite: false
@@ -73,31 +82,19 @@ export const footer: Footer = {
       links: [
         {
           name: "GitHub",
-          link: "https://github.com/miteshtagadiya",
+          link: "https://github.com/ASa1m",
           icon: `${process.env.NEXT_PUBLIC_BASE_URL}static/icons/github-f.svg`,
           leavesWebsite: true
         },
         {
           name: "LinkedIn",
-          link: "https://www.linkedin.com/in/mitesh-tagadiya-140420108",
+          link: "https://www.linkedin.com/in/abdullah-saim/",
           icon: `${process.env.NEXT_PUBLIC_BASE_URL}static/icons/linkedin-f.svg`,
           leavesWebsite: true
         },
         {
-          name: "StackOverflow",
-          link: "https://stackoverflow.com/users/6880229/mitesh7172",
-          icon: `${process.env.NEXT_PUBLIC_BASE_URL}static/icons/stackoverflow-f.svg`,
-          leavesWebsite: true
-        },
-        {
-          name: "NPM",
-          link: "https://www.npmjs.com/~miteshtagadiya",
-          icon: `${process.env.NEXT_PUBLIC_BASE_URL}static/icons/npm-f.svg`,
-          leavesWebsite: true
-        },
-        {
           name: "Email",
-          link: "mailto:miteshtagadiya@gmail.com",
+          link: "mailto:abdullah.saim.as@gmail.com",
           icon: `${process.env.NEXT_PUBLIC_BASE_URL}static/icons/mail-f.svg`,
           leavesWebsite: true
         }

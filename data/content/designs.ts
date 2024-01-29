@@ -29,20 +29,5 @@ export const designs: Design[] = [
     label: "Mobile Deal Page",
     img: `${process.env.NEXT_PUBLIC_BASE_URL}static/designs/mobile-deal-page.jpg`,
     link: "https://dribbble.com/shots/9462248-Mobile-Deal-Page",
-  },
-  {
-    label: "Neon Signatures",
-    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/designs/neon-signatures.jpeg`,
-    link: "https://dribbble.com/shots/11134809-Neon-Signatures",
-  },
-  {
-    label: "The Dentista - Logo Design",
-    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/designs/the-dentista-logo.png`,
-    link: "https://dribbble.com/shots/14571857-The-Dentista-Logo-Design",
-  },
-  {
-    label: "iPhone Wallpapers",
-    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/designs/iphone-wallpapers.png`,
-    link: "https://dribbble.com/shots/14077089-Free-iPhone-Wallpapers",
-  },
+  }
 ];
