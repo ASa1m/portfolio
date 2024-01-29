@@ -36,12 +36,12 @@ export const routes: Route[] = [
     path: "/projects"
   },
   {
-    title: "Contact",
-    path: "/contact"
-  },
-  {
     title: "Photography",
     path: "/photography"
+  },
+  {
+    title: "Contact",
+    path: "/contact"
   }
 ];
 
@@ -102,8 +102,8 @@ export const footer: Footer = {
     }
   ],
   support: {
-    buymeacoffee: "miteshtagap",
-    paypal: "miteshtagadiya",
+    buymeacoffee: "Abdullahtagap",
+    paypal: "AbdullahSaim",
     message: "I appreciate your support very much! 💙"
   }
 };

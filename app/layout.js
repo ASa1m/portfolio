@@ -23,7 +23,7 @@ export const metadata = {
   },
   metadataBase: new URL("https://asaim.netlify.app/"),
   openGraph: {
-    title: "Mitesh Tagadiya - Web Developer, Designer and Creator.",
+    title: "Abdullah Saim - Web Developer, Designer and Creator.",
     description:
       "Experienced ReactJS developer adept in crafting dynamic web applications with Next.js and Tailwind CSS. Explore my portfolio for innovative projects and seamless user experiences.",
     url: "https://asaim.netlify.app",

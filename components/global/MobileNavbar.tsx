@@ -42,16 +42,27 @@ export default function MobileNavbar() {
                 src={`${process.env.NEXT_PUBLIC_BASE_URL}static/logos/logo_no_text.png`}
                 width="60"
               />
-              {"Mitesh Tagadiya".split("").map((letter, index) => {
-                return (
-                  <span
-                    key={index}
-                    className="hover:text-fun-pink hover:-mt-2 transition-all duration-500 hover:duration-100 click:goodbyeLetterAnim"
-                  >
-                    {letter}
-                  </span>
-                );
-              })}
+               {"Abdullah".split("").map((letter, index) => {
+              return (
+                <span
+                  key={index}
+                  className="hover:text-fun-pink hover:-mt-2 transition-all duration-500 hover:duration-100 click:goodbyeLetterAnim"
+                >
+                  {letter}
+                </span>
+              );
+            })}
+            <span className="text-fun-pink">&nbsp;</span>
+             {"Saim".split("").map((letter, index) => {
+              return (
+                <span
+                  key={index}
+                  className="hover:text-fun-pink hover:-mt-2 transition-all duration-500 hover:duration-100 click:goodbyeLetterAnim"
+                >
+                  {letter}
+                </span>
+              );
+            })}
             </span>
           </Link>
         </li>
