@@ -4,7 +4,7 @@ import Head from "next/head";
 // import "tailwindcss/tailwind.css";
 
 export const metadata = {
-  applicationName: "Mitesh Tagadiya",
+  applicationName: "Abdullah Saim",
   keywords: [
     "Abdullah Saim",
     "abdullah saim",
@@ -19,19 +19,19 @@ export const metadata = {
   description:
     "Experienced ReactJS developer adept in crafting dynamic web applications with Next.js and Tailwind CSS. Explore my portfolio for innovative projects and seamless user experiences.",
   alternates: {
-    canonical: "https://miteshtagadiya.js.org/"
+    canonical: "https://asaim.netlify.app/"
   },
-  metadataBase: new URL("https://miteshtagadiya.js.org"),
+  metadataBase: new URL("https://asaim.netlify.app/"),
   openGraph: {
     title: "Mitesh Tagadiya - Web Developer, Designer and Creator.",
     description:
       "Experienced ReactJS developer adept in crafting dynamic web applications with Next.js and Tailwind CSS. Explore my portfolio for innovative projects and seamless user experiences.",
-    url: "https://miteshtagadiya.js.org",
-    siteName: "Mitesh Tagadiya",
+    url: "https://asaim.netlify.app",
+    siteName: "Abdullah Saim",
     images: [
       {
-        url: "https://miteshtagadiya.js.org/static/misc/og.png",
-        alt: "Mitesh Tagadiya"
+        url: "https://asaim.netlify.app/static/misc/og.png",
+        alt: "Abdullah Saim"
       }
     ],
     locale: "en_US",
@@ -71,13 +71,13 @@ export const metadata = {
   manifest: `${process.env.NEXT_PUBLIC_BASE_URL}static/favicon/site.webmanifest`,
   twitter: {
     card: "summary_large_image",
-    title: "Mitesh Tagadiya - Web Developer, Designer and Creator.",
+    title: "Abdullah Saim - Web Developer, Designer and Creator.",
     description:
       "Experienced ReactJS developer adept in crafting dynamic web applications with Next.js and Tailwind CSS. Explore my portfolio for innovative projects and seamless user experiences.",
-    url: "https://miteshtagadiya.js.org",
+    url: "https://asaim.netlify.app",
     images: {
-      url: "https://miteshtagadiya.js.org/static/misc/og.png",
-      alt: "Mitesh Tagadiya"
+      url: "https://asaim.netlify.app/static/misc/og.png",
+      alt: "Abdullah Saim"
     }
   }
 };
