@@ -1,6 +1,9 @@
 "use client"
 import React, { useState } from "react";
 import emailjs from '@emailjs/browser';
+import dotenv from 'dotenv';
+
+dotenv.config(); // Load variables from .env
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -28,10 +31,10 @@ function Contact() {
       if (name !== "" && email !== "" && message !== "") {
         emailjs
           .send(
-            process.env.EMAILJS_SERVICE_ID,
-            process.env.EMAILJS_TEMPLATE_ID,
+            process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+            process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
             templateParams,
-            process.env.EMAILJS_KEY
+            process.env.NEXT_PUBLIC_EMAILJS_KEY
           )
           .then(
             () => {

@@ -18,8 +18,11 @@ function MediaCard({ media }) {
         className={`w-full relative rounded-xl border-fun-gray border p-2 transition hover:-translate-y-2 hover:opacity-75 hover:border-fun-pink will-change-projectCard`}
       >
         <div style={{ display: 'flex', justifyContent: 'center' }}>
-          {media.type === 'facebook' && <FacebookEmbed url={media.link} width={500} />}
-          {media.type === 'instagram' && <InstagramEmbed url={media.link} width={500} />}
+          {media.type === 'facebook' && <FacebookEmbed url={media.link} width={350} />}
+          {media.type === 'instagram' && <InstagramEmbed url={media.link} width={350} />}
+        </div>
+        <div className="projects-center center">
+          <h3 className="text-lg font-bold center">{media.title}</h3>
         </div>
       </a>
 
