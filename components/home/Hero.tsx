@@ -18,7 +18,7 @@ function Hero() {
           /> 
            <img
           alt="paintbrush"
-          className="sqD right-[100px] sm:right-0 bottom-[-80px] lg:[5%]"
+          className="sqD right-[130px] bottom-[70px] sm:right-[-10px] sm:bottom-[-100px] lg:[5%]"
           style={{ animationDelay: "0.7s" }}
           src={`${process.env.NEXT_PUBLIC_BASE_URL}static/doodles/hero/paintbrush.svg`}
         />   
@@ -52,7 +52,7 @@ function Hero() {
         />
         <img
           alt="coder"
-          className="sqD hidden sm:block bottom-[-240px] left-[-60px]"
+          className="sqD sm:block bottom-[-240px] left-[-60px]"
           style={{ animationDelay: "0.4s" }}
           src={`${process.env.NEXT_PUBLIC_BASE_URL}static/doodles/hero/coder.svg`}
         />
@@ -66,12 +66,12 @@ function Hero() {
        
         <img
           alt="pop1"
-          className="sqD squiggle-hero-pop1 hidden sm:block sm:top-[-130px] sm:left-[15%] lg:top-[-130px] lg:left-[420px]"
+          className="sqD squiggle-hero-pop1 hidden sm:block sm:top-[-130px] sm:left-[15%] lg:top-[-130px] lg:left-[400px]"
           src={`${process.env.NEXT_PUBLIC_BASE_URL}static/doodles/hero/pop1.svg`}
         />
         <img
           alt="code"
-          className="sqD left-[135px] bottom-[-85px] sm:bottom-[-100px] sm:left-60 opacity-40"
+          className="sqD left-[25px] bottom-[120px] sm:bottom-[-100px] sm:left-80 opacity-40"
           style={{ animationDelay: "0.9s" }}
           src={`${process.env.NEXT_PUBLIC_BASE_URL}static/doodles/hero/code.svg`}
         />

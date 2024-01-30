@@ -903,6 +903,27 @@ select{
 .bottom-\[-240px\]{
   bottom: -240px;
 }
+.left-\[235px\]{
+  left: 235px;
+}
+.right-\[150px\]{
+  right: 150px;
+}
+.right-\[130px\]{
+  right: 130px;
+}
+.bottom-\[70px\]{
+  bottom: 70px;
+}
+.bottom-\[-120px\]{
+  bottom: -120px;
+}
+.left-\[25px\]{
+  left: 25px;
+}
+.bottom-\[120px\]{
+  bottom: 120px;
+}
 .z-\[-100\]{
   z-index: -100;
 }
@@ -2004,6 +2025,18 @@ pre {
     right: 70px;
   }
 
+  .sm\:left-80{
+    left: 20rem;
+  }
+
+  .sm\:right-10{
+    right: 2.5rem;
+  }
+
+  .sm\:right-\[-10px\]{
+    right: -10px;
+  }
+
   .sm\:col-auto{
     grid-column: auto;
   }
@@ -2312,6 +2345,10 @@ pre {
 
   .lg\:left-\[450px\]{
     left: 450px;
+  }
+
+  .lg\:left-\[520px\]{
+    left: 520px;
   }
 
   .lg\:w-1\/3{
