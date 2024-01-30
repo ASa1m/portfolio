@@ -3,43 +3,40 @@ import { kebabCase } from "@/utils/utils";
 const projects = [
   {
     id: 0,
-    title: "Wasalt",
-    desc: "Find properties For Sale and Rent, The Platform offering reliable real estate brokerage services.",
-    img: `${process.env.NEXT_PUBLIC_BASE_URL}static\\projects\\wasalt.jpg`,
-    link: "https://wasalt.com/",
-    tags: ["React", "NextJS", "CSS", "Context", "Socket.io"]
+    title: "JanWhere",
+    desc: "JANWHERE, is designed to harness the power of technology and community participation to raise awareness and conserve the indigenous animal species of Pakistan and aims to provide a recreational experience for users",
+    img: `${process.env.NEXT_PUBLIC_BASE_URL}static\\projects\\janwhere.jpeg`,
+    link: "https://github.com/ASa1m/JanWhere",
+    tags: ["React", "Express", "CSS", "MongoDB", "MERN", " Web App"]
   },
   {
     id: 1,
-    title: "Etihaas",
-    desc: "Healthcare near you, World's first Digital Healthcare Marketplace! If you own a healthcare establishment, you can claim your business for free",
-    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/etihaas.jpg`,
-    link: "https://www.etihaas.com/",
+    title: "Shuttle Service App",
+    desc: "Shuttle Tracking System in Java and JavaFX for real-time shuttle tracking.",
+    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/shuttleJ.png`,
+    link: "https://github.com/ASa1m/Shuttle-Service",
     tags: [
-      "React",
-      "NextJS",
-      "Context",
-      "HTML",
-      "CSS",
-      "Javascript",
-      "AWS Cognito"
+      "JavaFX",
+      "Java",
+      "Desktop App",
+      "MySQL"
     ]
   },
   {
     id: 2,
-    title: "Equitidex",
-    desc: "Buy & Sell Digital Assets in minutes",
-    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/equitidex.jpg`,
-    link: "https://www.equitidex.com/",
-    tags: ["React", "CSS", "Javascript", "Redux", "Groomet", "Bulma"]
+    title: "Tower of Hanoi",
+    desc: "A classic game made in assembly language",
+    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/tower.png`,
+    link: "https://github.com/ASa1m/Tower-of-Hanoi",
+    tags: ["x86", "Assembly", "Python", "Automation", "Desktop Game"]
   },
   {
     id: 3,
-    title: "Macwin Solar Energy",
-    desc: "Macwin Solar PV Module is the flagship company of Unique Sun Power LLP, which supplies solar panels used for green energy generation",
-    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/macwin.jpg`,
-    link: "https://macwinsolarenergy.com/",
-    tags: ["React", "TailwindCSS", "Javascript"]
+    title: "SAMS - Clothing Store Management System.",
+    desc: "Python-based Clothing Store Management System.",
+    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/sams.png`,
+    link: "https://github.com/MehranSangrasi/Database-Project-Clothin--Management-Sysytem",
+    tags: ["Python", "PyQt", "MySQL", "Desktop App"]
   }
 ];
 
