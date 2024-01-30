@@ -36,8 +36,8 @@ export const routes: Route[] = [
     path: "/projects"
   },
   {
-    title: "Photography",
-    path: "/photography"
+    title: "Media",
+    path: "/media"
   },
   {
     title: "Contact",
@@ -66,8 +66,8 @@ export const footer: Footer = {
           leavesWebsite: false
         },
         {
-          name: "Photography",
-          link: "/photography",
+          name: "Media",
+          link: "/media",
           leavesWebsite: false
         },
         {
@@ -97,12 +97,18 @@ export const footer: Footer = {
           link: "mailto:abdullah.saim.as@gmail.com",
           icon: `${process.env.NEXT_PUBLIC_BASE_URL}static/icons/mail-f.svg`,
           leavesWebsite: true
+        },
+        {
+          name: "Instagram",
+          link: "https://www.instagram.com/pics.aim/",
+          icon: `${process.env.NEXT_PUBLIC_BASE_URL}static/icons/instagram-f.svg`,
+          leavesWebsite: true
         }
       ]
     }
   ],
   support: {
-    buymeacoffee: "Abdullahtagap",
+    buymeacoffee: "Abdullah",
     paypal: "AbdullahSaim",
     message: "I appreciate your support very much! 💙"
   }
