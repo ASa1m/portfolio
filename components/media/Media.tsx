@@ -8,7 +8,7 @@ import MediaCard from "./MediaCard";
 function Media({ overwriteMedia }) {
   const projectsList = overwriteMedia ? overwriteMedia : media;
   return (
-    <div className="grid grid-cols-1 gap-8 md:grid-cols-3 items-start">
+    <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-4 lg:grid-cols-3 items-start">
       {projectsList.map(item => {
         return <MediaCard key={item.id} media={item} />;
       })}

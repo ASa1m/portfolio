@@ -17,7 +17,6 @@ type Footer = {
   columns: FooterCol[];
   support: {
     buymeacoffee: string;
-    paypal: string;
     message: string;
   };
 };
@@ -108,8 +107,7 @@ export const footer: Footer = {
     }
   ],
   support: {
-    buymeacoffee: "Abdullah",
-    paypal: "AbdullahSaim",
+    buymeacoffee: "asaim",
     message: "I appreciate your support very much! 💙"
   }
 };

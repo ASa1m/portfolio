@@ -68,23 +68,6 @@ function Footer() {
                 </a>
               </div>
             )}
-            {footer.support.paypal !== "" && (
-              <div>
-                <a
-                  href={`https://paypal.me/${footer.support.paypal}`}
-                  target="_blank"
-                >
-                  <Image
-                    alt="paypal"
-                    src={`${process.env.NEXT_PUBLIC_BASE_URL}static/misc/paypal.svg`}
-                    className="h-12 mr-2 hover:opacity-80 opacity-100 transition-opacity"
-                    height={30}
-                    width={100}
-                    style={{ width: "100%" }}
-                  />
-                </a>
-              </div>
-            )}
             <p className="text-fun-gray text-xs pt-1">
               {footer.support.message}
             </p>
