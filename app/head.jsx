@@ -31,7 +31,7 @@ export default function Head({ currentPage = "Home" }) {
         rel="icon"
         type="image/png"
         sizes="16x16"
-        href={`static/favicon/favicon-16x16.png"}
+        href="static/favicon/favicon-16x16.png"
       />
       <link rel="manifest" href={"/static/favicon/site.webmanifest"} />
       <link rel="canonical" href="https://AbdullahSaim.js.org/" />

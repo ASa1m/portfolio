@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useState } from 'react';
 import { animateScroll as scroll } from 'react-scroll';
+import Image from 'next/image';
 
 const ScrollUpButton = () => {
   const [showButton, setShowButton] = useState(false); // Track if button is visible
@@ -21,7 +22,7 @@ const ScrollUpButton = () => {
       className={`fixed bottom-4 right-4 rounded-full p-2 text-white bg-fun-pink hover:bg-fun-pink-dark focus:outline-none ${showButton ? 'block' : 'hidden'} cursor-pointer`}
       onClick={scrollToTop}
     >
-      <img
+      <Image
         src={"/static/misc/up.svg"}
         alt="Scroll Up"
         className="w-6 h-6 hover:invert"

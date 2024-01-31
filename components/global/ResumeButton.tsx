@@ -1,6 +1,7 @@
 "use client";
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 const ResumeButton = () => {
   const [isHovering, setIsHovering] = useState(false); // Track if button is being hovered over
@@ -15,7 +16,7 @@ const ResumeButton = () => {
     <Link href="/static/resume.pdf">
         Resume
     </Link>
-    <img src="/static/misc/download.svg" alt="Download"
+    <Image src="/static/misc/download.svg" alt="Download"
     className={`w-5 h-5 ml-2 ${isHovering ? 'invert' : ''}`} />
     </div>
   );
