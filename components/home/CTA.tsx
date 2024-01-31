@@ -8,7 +8,7 @@ function CTA() {
       <Image
         alt="lineBreak"
         className="w-30 m-auto mb-2"
-        src={`${process.env.NEXT_PUBLIC_BASE_URL}static/doodles/lineBreak.svg`}
+        src={"/static/doodles/lineBreak.svg"}
         height={10}
         width={238}
       />
@@ -29,7 +29,7 @@ function CTA() {
         alt="fancyLines"
         className="sqD min-w-[800px] bottom-[-100px] left-1/2 sm:bottom-[-150px] -translate-x-1/2 object-cover sm:min-w-[1100px]"
         style={{ zIndex: "-10" }}
-        src={`${process.env.NEXT_PUBLIC_BASE_URL}static/doodles/hero/fancyLines.svg`}
+        src={"/static/doodles/hero/fancyLines.svg"}
       />
     </div>
   );

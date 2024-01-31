@@ -20,7 +20,7 @@ function Testimonials() {
                   <img
                     alt="yay"
                     className="sqD top-[-50px] left-0 bottom-auto right-auto md:bottom-[-50px] md:top-auto md:right-[-25px] md:left-auto w-20 z-[-100]"
-                    src={`${process.env.NEXT_PUBLIC_BASE_URL}static/doodles/testimonials/yay.svg`}
+                    src={"/static/doodles/testimonials/yay.svg"}
                   />
                 </>
               )}
@@ -37,7 +37,7 @@ function Testimonials() {
                 <img
                   alt="squiggle2"
                   className="sqD top-[-30px] right-[-15px] w-11"
-                  src={`${process.env.NEXT_PUBLIC_BASE_URL}static/doodles/testimonials/squiggle2.svg`}
+                  src={"/static/doodles/testimonials/squiggle2.svg"}
                 />
               )}
             </div>

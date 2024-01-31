@@ -33,7 +33,7 @@ function ProjectCard({ project }) {
             {project.link && (
               <a href={project.link} target="_blank" rel="noreferrer">
                 <Image
-                  src={`${process.env.NEXT_PUBLIC_BASE_URL}static/icons/external-link.svg`}
+                  src={"/static/icons/external-link.svg"}
                   width={16}
                   height={16}
                   alt="Link Icon"
@@ -43,7 +43,7 @@ function ProjectCard({ project }) {
             {project.github && (
               <a href={project.github} target="_blank" rel="noreferrer">
                 <Image
-                  src={`${process.env.NEXT_PUBLIC_BASE_URL}static/icons/github.svg`}
+                  src={"/static/icons/github.svg"}
                   width={16}
                   height={16}
                   alt="Github Icon"

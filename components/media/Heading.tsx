@@ -20,7 +20,7 @@ function Heading({ tag }: HeadingProps) {
             <img
               alt="camera"
               className="sqD w-8 sm:w-10 -top-6 -right-2 sm:-right-8 sm:-top-8 absolute"
-              src={`${process.env.NEXT_PUBLIC_BASE_URL}static/doodles/projects/camera.svg`}
+              src={"/static/doodles/projects/camera.svg"}
             />
           </h1>
         </>
@@ -30,7 +30,7 @@ function Heading({ tag }: HeadingProps) {
           <img
             alt="camera"
             className="sqD w-10 -top-8 -right-8 absolute"
-            src={`${process.env.NEXT_PUBLIC_BASE_URL}static/doodles/projects/camera.svg`}
+            src={"/static/doodles/projects/camera.svg"}
           />
         </h1>
       )}

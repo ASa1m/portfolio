@@ -2,6 +2,7 @@
 import Footer from "../global/Footer";
 import MobileNavbar from "../global/MobileNavbar";
 import Navbar from "../global/Navbar";
+import ScrollUpButton from "@/components/global/ScrollUpButton";
 import React from "react";
 
 function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
@@ -35,6 +36,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>`
           {children}
         </main>
         <Footer />
+        <ScrollUpButton />
       </div>
     </>
   );

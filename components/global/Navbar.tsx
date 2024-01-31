@@ -1,8 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import { routes } from "@/data/global";
 import Image from "next/image";
+import ResumeButton from "./ResumeButton";
 
 function Navbar({ currentPage }) {
   return (
@@ -13,7 +14,7 @@ function Navbar({ currentPage }) {
             <Image
               alt="Saim"
               className="mr-2 transform hover:rotate-360 hover:scale-75 transition-transform duration-500"
-              src={`${process.env.NEXT_PUBLIC_BASE_URL}static/logos/logo_no_text.png`}
+              src={"/static/logos/logo_no_text.png"}
               width="60"
               height={60}
             />
@@ -56,6 +57,9 @@ function Navbar({ currentPage }) {
             </li>
           );
         })}
+        <li>
+          <ResumeButton />
+        </li>
       </ul>
     </nav>
   );

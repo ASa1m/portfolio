@@ -82,25 +82,25 @@ export const footer: Footer = {
         {
           name: "GitHub",
           link: "https://github.com/ASa1m",
-          icon: `${process.env.NEXT_PUBLIC_BASE_URL}static/icons/github-f.svg`,
+          icon: "/static/icons/github-f.svg",
           leavesWebsite: true
         },
         {
           name: "LinkedIn",
           link: "https://www.linkedin.com/in/abdullah-saim/",
-          icon: `${process.env.NEXT_PUBLIC_BASE_URL}static/icons/linkedin-f.svg`,
+          icon: "/static/icons/linkedin-f.svg",
           leavesWebsite: true
         },
         {
           name: "Email",
           link: "mailto:abdullah.saim.as@gmail.com",
-          icon: `${process.env.NEXT_PUBLIC_BASE_URL}static/icons/mail-f.svg`,
+          icon: "/static/icons/mail-f.svg",
           leavesWebsite: true
         },
         {
           name: "Instagram",
           link: "https://www.instagram.com/pics.aim/",
-          icon: `${process.env.NEXT_PUBLIC_BASE_URL}static/icons/instagram-f.svg`,
+          icon: "/static/icons/instagram-f.svg",
           leavesWebsite: true
         }
       ]

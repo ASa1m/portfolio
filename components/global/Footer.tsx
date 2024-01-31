@@ -59,7 +59,7 @@ function Footer() {
                 >
                   <Image
                     alt="buy-me-a-coffee"
-                    src={`${process.env.NEXT_PUBLIC_BASE_URL}static/misc/buy-me-a-coffee.svg`}
+                    src={"/static/misc/buy-me-a-coffee.svg"}
                     className="h-12 mr-2 hover:opacity-80 opacity-100 transition-opacity"
                     height={30}
                     width={100}

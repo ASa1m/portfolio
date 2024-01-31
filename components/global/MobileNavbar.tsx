@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { routes } from "@/data/global";
 import React from "react";
+import ResumeButton from "./ResumeButton";
 
 export default function MobileNavbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,9 +29,8 @@ export default function MobileNavbar() {
   return (
     <nav>
       <div
-        className={`w-full justify-between flex items-center ${
-          isMenuOpen && "bg-bg"
-        } p-5`}
+        className={`w-full justify-between flex items-center ${isMenuOpen && "bg-bg"
+          } p-5`}
         style={{ zIndex: 101 }}
       >
         <li className="list-none font-bold text-lg">
@@ -39,30 +39,30 @@ export default function MobileNavbar() {
               <img
                 alt={"Abdullah Saim"}
                 className="mr-3"
-                src={`${process.env.NEXT_PUBLIC_BASE_URL}static/logos/logo_no_text.png`}
+                src={"/static/logos/logo_no_text.png"}
                 width="60"
               />
-               {"Abdullah".split("").map((letter, index) => {
-              return (
-                <span
-                  key={index}
-                  className="hover:text-fun-pink hover:-mt-2 transition-all duration-500 hover:duration-100 click:goodbyeLetterAnim"
-                >
-                  {letter}
-                </span>
-              );
-            })}
-            <span className="text-fun-pink">&nbsp;</span>
-             {"Saim".split("").map((letter, index) => {
-              return (
-                <span
-                  key={index}
-                  className="hover:text-fun-pink hover:-mt-2 transition-all duration-500 hover:duration-100 click:goodbyeLetterAnim"
-                >
-                  {letter}
-                </span>
-              );
-            })}
+              {"Abdullah".split("").map((letter, index) => {
+                return (
+                  <span
+                    key={index}
+                    className="hover:text-fun-pink hover:-mt-2 transition-all duration-500 hover:duration-100 click:goodbyeLetterAnim"
+                  >
+                    {letter}
+                  </span>
+                );
+              })}
+              <span className="text-fun-pink">&nbsp;</span>
+              {"Saim".split("").map((letter, index) => {
+                return (
+                  <span
+                    key={index}
+                    className="hover:text-fun-pink hover:-mt-2 transition-all duration-500 hover:duration-100 click:goodbyeLetterAnim"
+                  >
+                    {letter}
+                  </span>
+                );
+              })}
             </span>
           </Link>
         </li>
@@ -94,6 +94,9 @@ export default function MobileNavbar() {
               </li>
             );
           })}
+          <li>
+            <ResumeButton />
+          </li>
         </ul>
       )}
     </nav>

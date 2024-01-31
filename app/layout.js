@@ -39,36 +39,36 @@ export const metadata = {
   },
   icons: {
     icon: [
-      { rel: "icon", url: `${process.env.NEXT_PUBLIC_BASE_URL}static/favicon/favicon.ico` },
+      { rel: "icon", url: "/static/favicon/favicon.ico" },
       {
         rel: "icon",
-        url: `${process.env.NEXT_PUBLIC_BASE_URL}static/favicon/apple-touch-icon.png`,
+        url: "/static/favicon/apple-touch-icon.png",
         sizes: "180x180",
         type: "image/png"
       },
       {
         rel: "icon",
-        url: `${process.env.NEXT_PUBLIC_BASE_URL}static/favicon/favicon-16x16.png`,
+        url: "/static/favicon/favicon-16x16.png",
         sizes: "16x16",
         type: "image/png"
       },
       {
         rel: "icon",
-        url: `${process.env.NEXT_PUBLIC_BASE_URL}static/favicon/favicon-32x32.png`,
+        url: "/static/favicon/favicon-32x32.png",
         sizes: "32x32",
         type: "image/png"
       }
     ],
-    shortcut: [`${process.env.NEXT_PUBLIC_BASE_URL}static/favicon/favicon.ico`],
+    shortcut: ["/static/favicon/favicon.ico"],
     apple: [
       {
-        url: `${process.env.NEXT_PUBLIC_BASE_URL}static/favicon/apple-touch-icon.png`,
+        url: "/static/favicon/apple-touch-icon.png",
         sizes: "180x180",
         type: "image/png"
       }
     ]
   },
-  manifest: `${process.env.NEXT_PUBLIC_BASE_URL}static/favicon/site.webmanifest`,
+  manifest: "/static/favicon/site.webmanifest",
   twitter: {
     card: "summary_large_image",
     title: "Abdullah Saim - Computer Scientist, Developer and Creator.",
@@ -88,7 +88,7 @@ export default function RootLayout({ children }) {
         <link
           rel="icon"
           type="image/x-icon"
-          href={`${process.env.NEXT_PUBLIC_BASE_URL}static/favicon/favicon.ico`}
+          href={"/static/favicon/favicon.ico"}
           sizes="16x16"
         />
         <script
