@@ -74,22 +74,22 @@ function Contact() {
           <div className="flex flex-row items-center justify-center space-x-4">
             <Tooltip title="LinkedIn" position="top" trigger="mouseenter">
             <Link href="https://www.linkedin.com/in/abdullah-saim/" target="_blank">
-              <Image src="/static/icons/linkedin.svg" className="w-10 h-10 mt-2" width={40} height={40} />
+              <Image src="/static/icons/linkedin.svg" className="w-10 h-10 mt-2" width={40} height={40} alt="LinkedIn" />
             </Link>
             </Tooltip>
             <Tooltip title="Mail me" position="top" trigger="mouseenter">
             <Link href="mailto:abdullah.saim.as@gmail.com" target="_blank">
-              <Image src="/static/icons/gmail.svg" className="w-10 h-10 mt-2" width={40} height={40} />
+              <Image src="/static/icons/gmail.svg" className="w-10 h-10 mt-2" width={40} height={40} alt="Mail me" />
             </Link>
             </Tooltip>
             <Tooltip title="WhatsApp" position="top" trigger="mouseenter">
             <Link href="https://wa.me/923008438161" target="_blank">
-              <Image src="/static/icons/whatsapp.svg" className="w-10 h-10 mt-2" width={40} height={40} />
+              <Image src="/static/icons/whatsapp.svg" className="w-10 h-10 mt-2" width={40} height={40} alt="WhatsApp" />
             </Link>
             </Tooltip>
           </div>
         </div>
-        <form className="mt-6 mb-10 space-y-6" onSubmit={handleSubmit}>
+        <form className="mt-6 mb-10 space-y-6" onSubmit={handleSubmit} netlify>
           <div>
             <label htmlFor="name" className="sr-only">
               Name

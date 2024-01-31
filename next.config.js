@@ -1,6 +1,6 @@
 module.exports = {
   distDir: 'dist',
-  output: "export", // comment this line while development
+  // output: "export", // comment this line while development
   assetPrefix: "/",
   basePath: "",
   trailingSlash: true, // comment this line while development
