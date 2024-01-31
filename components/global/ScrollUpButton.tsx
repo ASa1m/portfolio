@@ -25,7 +25,8 @@ const ScrollUpButton = () => {
       <Image
         src={"/static/misc/up.svg"}
         alt="Scroll Up"
-        className="w-6 h-6 hover:invert"
+        className="w-5 h-5 hover:invert"
+        width={5} height={5}
       />
     </div>
   );

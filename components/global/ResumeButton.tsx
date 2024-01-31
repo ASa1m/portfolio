@@ -13,11 +13,11 @@ const ResumeButton = () => {
     <div className="cursor-pointer flex justify-center flex-row list-none text-fun-pink-dark hover:text-white opacity-80 hover:opacity-100 transition-opacity bg-fun-pink hover:bg-fun-pink-dark px-4 py-2 rounded-full"
     onMouseEnter={setHoverTrue}
     onMouseLeave={setHoverFalse}>
-    <Link href="/static/resume.pdf">
+    <Link href="/static/Resume.pdf">
         Resume
     </Link>
-    <Image src="/static/misc/download.svg" alt="Download"
-    className={`w-5 h-5 ml-2 ${isHovering ? 'invert' : ''}`} />
+    <Image src="/static/misc/download.svg" alt="Download" width={20} height={20}
+    className={`ml-2 ${isHovering ? 'invert' : ''}`} />
     </div>
   );
 };
