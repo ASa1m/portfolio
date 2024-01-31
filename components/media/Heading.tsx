@@ -29,7 +29,7 @@ function Heading({ tag }: HeadingProps) {
           Photography
           <img
             alt="camera"
-            className="sqD w-10 -top-8 -right-8 absolute"
+            className="sqD w-16 -top-8 -right-14 absolute"
             src={"/static/doodles/projects/camera.svg"}
           />
         </h1>

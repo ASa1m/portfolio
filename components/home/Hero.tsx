@@ -12,7 +12,7 @@ function Hero() {
       >
                <div className="relative w-full px-16 pb-4 md:w-2/3 md:px-50 lg:w-1/3 lg:p-4">
           <img
-            src="/static/misc/pfp.png"
+            src="/static/misc/pfp.webp"
             alt="PFP"
             style={{ borderRadius: "50%", width: "100%" , objectFit: "cover" }}
           /> 

@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/next-script-for-ga */
 import "./globals.css";
+import 'react-tippy/dist/tippy.css';
 import Head from "next/head";
 // import "tailwindcss/tailwind.css";
 

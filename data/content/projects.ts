@@ -5,7 +5,7 @@ const projects = [
     id: 0,
     title: "JanWhere",
     desc: "JANWHERE, is designed to harness the power of technology and community participation to raise awareness and conserve the indigenous animal species of Pakistan and aims to provide a recreational experience for users",
-    img: "/static\\projects\\janwhere.jpeg",
+    img: "/static\\projects\\janwhere.webp",
     link: "https://github.com/ASa1m/JanWhere",
     tags: ["React", "Express", "CSS", "MongoDB", "MERN", " Web App"]
   },
@@ -13,7 +13,7 @@ const projects = [
     id: 1,
     title: "Shuttle Service App",
     desc: "Shuttle Tracking System in Java and JavaFX for real-time shuttle tracking.",
-    img: "/static/projects/shuttleJ.png",
+    img: "/static/projects/shuttleJ.webp",
     link: "https://github.com/ASa1m/Shuttle-Service",
     tags: [
       "JavaFX",
@@ -26,7 +26,7 @@ const projects = [
     id: 2,
     title: "Tower of Hanoi",
     desc: "A classic game made in assembly language",
-    img: "/static/projects/tower.png",
+    img: "/static/projects/tower.webp",
     link: "https://github.com/ASa1m/Tower-of-Hanoi",
     tags: ["x86", "Assembly", "Python", "Automation", "Desktop Game"]
   },
@@ -34,7 +34,7 @@ const projects = [
     id: 3,
     title: "SAMS - Clothing Store Management System.",
     desc: "Python-based Clothing Store Management System.",
-    img: "/static/projects/sams.png",
+    img: "/static/projects/sams.webp",
     link: "https://github.com/MehranSangrasi/Database-Project-Clothin--Management-Sysytem",
     tags: ["Python", "PyQt", "MySQL", "Desktop App"]
   }
