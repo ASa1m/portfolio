@@ -15,6 +15,10 @@ export const metadata = {
     "nextjs",
     "photography",
     "videography",
+    "abdullah",
+    "saim",
+    "Computer Scientist",
+    "Developer"
   ],
   title: "Abdullah Saim - Computer Scientist, Developer and Creator.",
   description:
@@ -26,7 +30,7 @@ export const metadata = {
   openGraph: {
     title: "Abdullah Saim - Computer Scientist, Developer and Creator.",
     description:
-      "Experienced ReactJS developer adept in crafting dynamic web applications with Next.js and Tailwind CSS. Explore my portfolio for innovative projects and seamless user experiences.",
+      "Experienced ReactJS developer adept in crafting dynamic web applications with Next.js and Tailwind CSS. Explore my portfolio for innovative projects ",
     url: "https://asaim.netlify.app",
     siteName: "Abdullah Saim",
     images: [
