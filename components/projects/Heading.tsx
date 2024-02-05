@@ -1,12 +1,15 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
+'use client';
+import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import React from "react";
 
-type HeadingProps = {
-  tag?: string;
-};
 
-function Heading({ tag }: HeadingProps) {
+function Heading() {
+  const searchParams = useSearchParams();
+  const tag = searchParams.get("tag");
+  
   return (
     <div
       className={`${
@@ -16,13 +19,17 @@ function Heading({ tag }: HeadingProps) {
       {tag ? (
         <>
           <h1 className="text-3xl sm:text-4xl inline-block w-auto mx-auto mb-8 relative">
-            Projects built with <b>{tag}</b>
+            Projects with tag <b>{tag}</b>
             <img
               alt="code"
               className="sqD w-8 sm:w-10 -top-6 -right-2 sm:-right-8 sm:-top-8 absolute"
               src={"/static/doodles/hero/code.svg"}
             />
           </h1>
+          <br />
+          <Link href="/projects" className="text-fun-pink hover:text-white text-lg">
+              Show all projects
+          </Link>
         </>
       ) : (
         <h1 className="text-4xl sm:text-6xl inline-block w-auto mx-auto mb-8 relative">

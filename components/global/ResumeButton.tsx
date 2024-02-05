@@ -17,8 +17,8 @@ const ResumeButton = () => {
         <Link href="/static/Resume.pdf">
           Resume
         </Link>
-        <Image src="/static/misc/download.svg" alt="Download" width={20} height={20}
-          className={`ml-2 ${isHovering ? 'invert' : ''}`} />
+        <Image src="/static/misc/download.svg" alt="Download" width={20} height="0"
+          className={`h-auto ml-2 ${isHovering ? 'invert' : ''}`} />
     <Tooltip id="my-tooltip-1" content='Download my resume' place='bottom'/>
       </div>
   );

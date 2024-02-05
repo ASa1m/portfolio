@@ -941,6 +941,9 @@ select{
 .h-96{
   height: 24rem;
 }
+.h-auto{
+  height: auto;
+}
 .h-full{
   height: 100%;
 }
@@ -1391,6 +1394,9 @@ select{
   --tw-invert: invert(100%);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
+.filter{
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
 .transition{
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -1796,6 +1802,10 @@ pre {
 .hover\:text-fun-pink:hover{
   --tw-text-opacity: 1;
   color: rgb(0 199 255 / var(--tw-text-opacity));
+}
+.hover\:text-fun-pink-dark:hover{
+  --tw-text-opacity: 1;
+  color: rgb(25 39 66 / var(--tw-text-opacity));
 }
 .hover\:text-white:hover{
   --tw-text-opacity: 1;

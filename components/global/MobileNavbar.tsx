@@ -38,7 +38,7 @@ export default function MobileNavbar() {
             <span className="font-black text-xl flex items-center">
               <img
                 alt={"Abdullah Saim"}
-                className="mr-3"
+                className="h-auto mr-3"
                 src={"/static/logos/logo_no_text.png"}
                 width="60"
               />

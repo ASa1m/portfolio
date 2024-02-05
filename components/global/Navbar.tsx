@@ -13,10 +13,10 @@ function Navbar({ currentPage }) {
           <span className="font-black text-xl flex items-center">
             <Image
               alt="Saim"
-              className="mr-2 transform hover:rotate-360 hover:scale-75 transition-transform duration-500"
+              className="h-auto mr-2 transform hover:rotate-360 hover:scale-75 transition-transform duration-500"
               src={"/static/logos/logo_no_text.png"}
               width="60"
-              height={60}
+              height={0}
             />
             {"Abdullah".split("").map((letter, index) => {
               return (

@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { kebabCase } from "@/utils/utils";
 import Link from "next/link";
+import { URL } from "next/dist/compiled/@edge-runtime/primitives/url";
 
 function ProjectCard({ project }) {
   return (
@@ -57,7 +58,7 @@ function ProjectCard({ project }) {
           {project.tags.map((tag, index) => {
             return (
               <li key={tag}>
-                <Link href={`/projects/tag/${kebabCase(tag)}`}>
+                <Link href={`/projects?tag=${kebabCase(tag)}`}>
                   <div className="m-1 rounded-lg text-sm bg-fun-pink-dark py-1 px-2 cursor-pointer hover:opacity-75">
                     {tag}
                   </div>

@@ -35,7 +35,7 @@ function projects() {
       }}
     >
       <Heading />
-      <Projects />
+      <Projects/>
       <More />
     </Page>
   );
