@@ -36,8 +36,8 @@ function Heading({ tag }: HeadingProps) {
       )}
       {!tag && (
         <p className="text-fun-gray text-xl sm:text-2xl max-w-3xl m-auto">
-          I've built cool web apps and websites using anything from HTML to
-          React and NextJS. Here are some of my favorite projects over the
+          I have built cool Desktop apps and websites using anything from React to
+          Java and Python. Here are some of my favorite projects over the
           course of my journey.
         </p>
       )}
