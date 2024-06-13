@@ -13,7 +13,7 @@ const ResumeButton = () => {
     const handleClick = () => {
       ReactGA.event({
         category: 'Button',
-        action: 'Clicked',
+        action: 'Resume Download',
         label: 'Resume Button'
       });
     };
