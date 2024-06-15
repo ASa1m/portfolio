@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import ReactGA from 'react-ga4';
 
-function Analytics() {
+function GoogleAnalytics() {
   useEffect(() => {
     // Your Google Analytics tracking code here (e.g., ReactGA.initialize, etc.)
 
@@ -21,4 +21,4 @@ function Analytics() {
   return null; // No JSX needed here
 }
 
-export default Analytics;
+export default GoogleAnalytics;

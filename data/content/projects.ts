@@ -79,8 +79,6 @@ const projects = [
     tags: ["C/C++", "DSA", "Data Structures", "CLI", "Desktop App"]
   }
 
-
-
 ];
 
 export const allTags = [];
