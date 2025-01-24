@@ -12,16 +12,16 @@ export const metadata = {
     canonical: "https://Abdullahtagadiya.js.org/projects"
   },
   openGraph: {
-    title: "Projects - Abdullah Tagadiya",
+    title: "Projects - Abdullah Saim",
     description:
       "I love coding using tools like React, NextJS, Tailwind, and many more! Here are some of my favorite projects.",
-    url: "https://Abdullahtagadiya.js.org/projects"
+    url: "https://abdullahsaim.live/projects"
   },
   twitter: {
-    title: "Projects - Abdullah Tagadiya",
+    title: "Projects - Abdullah Saim",
     description:
       "I love coding using tools like React, NextJS, Tailwind, and many more! Here are some of my favorite projects.",
-    url: "https://Abdullahtagadiya.js.org/projects"
+    url: "https://abdullahsaim.live/projects"
   }
 };
 
